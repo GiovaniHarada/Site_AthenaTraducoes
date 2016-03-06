@@ -318,3 +318,20 @@ a{
     left: 850px;
     top: -250px;
 }
+#txt_cafe{
+    position: relative;
+    color: #f9c52b;
+    font: 700 35px / 36px Montserrat;
+    font-family: Montserrat, Verdana, sans-serif;
+    left: 449px;
+    top: -40
+}
+#txt_cafe2{
+    position: relative;
+    color: #ffffff;
+    font: 400 20px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+    left: 264px;
+    top: -70px;
+}
+
