@@ -153,7 +153,7 @@ a{
 #txt_mobo3{
     color: #000000;
     font: 400 14px 'Myriad Pro';
-    font-family: Montserrat, Verdana, sans-serif;
+    font-family: Myriad Pro, Verdana, sans-serif;
     position: relative;
     left: -405px;
     top: 170px;
@@ -207,9 +207,114 @@ a{
     position: relative;
     color: #000000;
     font: 400 20px 'Myriad Pro';
-    font-family: Montserrat, Verdana, sans-serif;
+    font-family: Myriad Pro, Verdana, sans-serif;
     text-align: center;
     width: 920px;
     top: -250px;
     left: 27px;
+}
+#txt_idiomas{
+    position: relative;
+    color: #f9c52b;
+    font: 700 35px Montserrat;
+    font-family: Montserrat, Verdana, sans-serif;
+    left: 848px;
+    top: -100px;
+}
+#txt_idiomas2{
+    position: relative;
+    color: #777777;
+    font: 400 15px 'Myriad Pro';
+    font-family: Myriad Pro, Verdana, sans-serif;
+    left: 893px;
+    top: -130px;
+}
+#txt_idiomas3{
+    position: relative;
+    color: #222222;
+    font: 700 15px / 75px Montserrat;
+    font-family: Montserrat, Verdana, sans-serif;
+    left: 849px;
+    top: -100px;
+}
+#txt_idiomas4{
+    position: relative;
+    color: #777777;
+    font: 400 16px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+    left: 849px;
+    top: -125px;
+    width: 420px;
+}
+#img_precos{
+    position: relative;
+    left: 854px;
+    top: -100px;
+}
+#txt_precos{
+    position: relative;
+    left: 941px;
+    top: -185px;
+    color: #222222;
+    font: 700 16px / 75px Montserrat;
+    font-family: Montserrat, Verdana, sans-serif;
+}
+#txt_precos2{
+    position: relative;
+    left: 940px;
+    color: #777777;
+    font: 400 16px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+    top: -210px; 
+}
+#img_quality{
+    position: relative;
+    left: 854px;
+    top: -160px;
+}
+#txt_quality{
+    position: relative;
+    left: 940px;
+    top: -245px;
+    color: #222222;
+    font: 700 16px / 75px Montserrat;
+    font-family: Montserrat, Verdana, sans-serif;
+}
+#txt_quality2{
+    position: relative;
+    left: 940px;
+    color: #777777;
+    font: 400 16px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+    top: -270px; 
+}
+#img_security{
+    position: relative;
+    left: 854px;
+    top: -222px;
+}
+#txt_security{
+    position: relative;
+    left: 940px;
+    top: -305px;
+    color: #222222;
+    font: 700 16px / 75px Montserrat;
+    font-family: Montserrat, Verdana, sans-serif;
+}
+#txt_security2{
+    position: relative;
+    left: 940px;
+    color: #777777;
+    font: 400 16px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+    top: -330px; 
+}
+#txt_idiomas5{
+    position: relative;
+    color: #777777;
+    font: 400 16px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+    width: 550px;
+    left: 850px;
+    top: -250px;
 }
