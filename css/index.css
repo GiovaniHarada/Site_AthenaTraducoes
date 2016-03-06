@@ -144,9 +144,10 @@ a{
 }
 #barrasobre{
     position: relative;
-    left: 406px;
+    left: 377px;
     top: -360px;
-    
+    width: 200px;
+    height: 11px;
 }
 #txt_mobo2{
     color: #000000;
