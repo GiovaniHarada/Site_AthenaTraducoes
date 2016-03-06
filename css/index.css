@@ -1,0 +1,87 @@
+#content{
+    position: relative;
+    width: 1400px;
+    height: 4960px;
+    background: url(../images/bg.png);
+    margin: auto;
+
+    
+}
+a{
+    animation: none;
+    text-decoration: none;
+    color: #000000;
+}
+#linkbar{
+    color: #000000;
+    font: 400 14px / 41px;
+    font-family: "Verdana";
+    position: absolute;
+    left: 741px;
+    top: 52px;
+    word-spacing: 30px;
+}
+.Header{
+    background-color: #fdfafa;
+    height: 115px;
+    width: 1400px;    
+}
+#logo{
+    height: 104px;
+    left: 142px;
+    right: 962px;
+    top: 5px;
+    width: 296px;
+}
+#transparencia1{
+    position: absolute;
+    
+}
+#barra1{
+    position: absolute;
+}
+.inicio{
+    height: 583px;
+    left: 0px;
+    top: 115px;
+}
+.servicos{
+    height: 482px;
+    top: 505px;
+    left: 0px;    
+}
+#txt_inicio1{
+    position: relative;
+    color: #ffffff;
+    font: 700 60px / 65px Montserrat;
+    font-family: Montserrat, Verdana, sans-serif;
+    left: 423px;
+    top: 75px;
+}
+#txt_inicio2{
+    position: relative;
+    color: #ffffff;
+    font: 700 60px / 65px Montserrat;
+    font-family: Montserrat, Verdana, sans-serif;
+    left: 516px;
+    top: 15px;
+}
+#txt_inicio3{
+    position: relative;
+    color: #ffffff;
+    font: 400 20px 'Myriad Pro';
+    font-family: 'Myriad Pro', 'Verdana', sans-serif;
+    left: 582px;
+    top: -80px;
+}
+#inicio_plus{
+    position: relative;
+    left: 458px;
+    top: -95;
+}
+#btn_orcamento{
+    position: relative;
+    left: 587px;
+    top: -65px;
+    
+}
