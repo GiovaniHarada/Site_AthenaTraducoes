@@ -400,3 +400,7 @@ a{
     position: relative;
     left: 408px;
 }
+
+btn_inicio:hover{
+    color: #f9bf12;
+}
