@@ -103,7 +103,9 @@ a{
     height: 245px;
     left: 41px; 
     top: -300px;
-
+    border-color: #F9C52B;
+    border-width: 8px;
+    border-style: solid;
 }
 #img_heart{
     position: relative;
@@ -140,6 +142,11 @@ a{
     left: -90px;
     top: 120px;
 }
+#barrasobre{
+    position: relative;
+    left: 406px;
+    top: -360px;
+}
 #txt_mobo2{
     color: #000000;
     font: 400 14px 'Myriad Pro';
@@ -151,7 +158,7 @@ a{
 #txt_mobo3{
     color: #000000;
     font: 400 14px 'Myriad Pro';
-    font-family: Myriad Pro, Verdana, sans-serif;
+    font-family: Montserrat, Verdana, sans-serif;
     position: relative;
     left: -405px;
     top: 170px;
