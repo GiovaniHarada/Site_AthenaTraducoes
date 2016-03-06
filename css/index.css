@@ -334,4 +334,64 @@ a{
     left: 264px;
     top: -70px;
 }
-
+#box_servico{
+    position: relative;
+    left: 100
+}
+#box_idioma{
+    position: relative;
+    left: 120px;
+}
+#cafeFormBox{
+    width: 720px;
+    position: relative;
+    margin: auto;
+}
+#box_numero{
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+#txt_labelnumero{
+    color: #ffffff;
+    font: 700 14px OpenSans;
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+#box_interprete{
+    position: relative;
+    top: -27px;
+    left: 280px;
+}
+#txt_labelinterprete{
+    position: relative;
+    top: -27px;
+    left: 280px;
+    color: #ffffff;
+    font: 700 14px OpenSans;
+}
+#box_dias{
+    position: relative;
+    top: -64px;
+    left: 500px;
+}
+#txt_labeldias{
+    color: #ffffff;
+    font: 700 14px OpenSans;
+    position: relative;
+    top: -64px;
+    left: 500px;
+}
+#txt_labelservico{
+    position: relative;
+    left: 102px;
+    color: #ffffff;
+    font: 700 14px OpenSans;
+}
+#txt_labelidioma{
+    color: #ffffff;
+    font: 700 14px OpenSans;
+    position: relative;
+    left: 408px;
+}

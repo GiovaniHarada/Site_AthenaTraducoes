@@ -72,7 +72,10 @@
                 <p id="txt_cafe">VAMOS TOMAR UM CAFÉ ?</p>
                 <p id="txt_cafe2">Solicite seu orçamento sem compromisso. Se desejar maiores detalhes e negociações da proposta, contate-nos.</p>
                 <div id="cafeFormBox">
-                    <select name="servico" form="cafe">
+                    <label id="txt_labelservico" for="servico">Qual serviço?</label>
+                    <label id="txt_labelidioma" for="idioma">Escolha o idioma</label>
+                    <br>
+                    <select name="servico" id="box_servico" form="cafe">
                         <option value="Default">Escolha um Serviço</option>
                         <option value="TraducaoSimples">Tradução e Versões Simples/Técnicas</option>
                         <option value="TraducaoJuramentada">Tradução e Versões Juramentadas</option>
@@ -82,7 +85,7 @@
                         <option value="Transcricao">Transcrição de Vídeos e Áudios</option>
                     </select>
                     
-                    <select name="idioma" form="cafe">
+                    <select name="idioma" id="box_idioma" form="cafe">
                         <option value="Default">Idioma</option>
                         <option value="Ingles">Ingles</option>
                         <option value="Espanhol">Espanhol</option>
@@ -121,13 +124,13 @@
                     
                     <form name="cafe" id="cafe">	
                         <label id="txt_labelnumero"for="numero">Numero de paginas</label><br>
-                        <input type="number" name="numero" id="numero"><br>
+                        <input id="box_numero" type="number" name="numero" id="numero"><br>
 
-                        <label for="numeroInterprete">Números de interprete</label><br>
-                        <input type="number" name="numeroInterprete" id="numeroInterprete"><br>
+                        <label id="txt_labelinterprete" for="numeroInterprete">Números de interprete</label><br>
+                        <input type="number" name="numeroInterprete" id="box_interprete"><br>
 
-                        <label for="dias">Quantos dias</label><br>
-                        <input type="number" name="dias" id="dias"><br>
+                        <label id="txt_labeldias" for="dias">Quantos dias</label><br>
+                        <input type="number" name="dias" id="box_dias"><br>
                     </form>
                     
                 </div>
