@@ -447,7 +447,7 @@ a{
     color: #777777;
     font: 400 22px / 28px 'Myriad Pro';
     font-family: 'Myriad Pro', Verdana, sans-serif;
-    top: 10px;
+    top: 30px;
 }
 
 #txt_depoimento4{
@@ -456,7 +456,25 @@ a{
     font-family: 'Myriad Pro', Verdana, sans-serif;
     position: relative;
     left: 1px;
-    top: 1px;
+    top: 40px;
+}
+
+#txt_depoimento5{
+    position: relative;
+    color: #777777;
+    font: 400 22px / 28px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+    top: 50px;
+}
+
+
+#txt_depoimento6{
+    color: #f9c52b;
+    font: 400 18px / 36px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+    position: relative;
+    left: 1px;
+    top: 90px;
 }
 
 #txt_parceiro1{
@@ -519,8 +537,8 @@ a{
     color: #ececec;
     font: 400 16px 'Myriad Pro';
     font-family: 'Myriad Pro', Verdana, sans-serif;
-    left: 0px;
-    top: 925px;
+    left: 10px;
+    top: 905px;
 }
 
 #img_localizacao1{
@@ -537,7 +555,7 @@ a{
 
 #img_localizacao3{
     position: relative;
-    left: -20px;
-    top: 930px;
+    left: -10px;
+    top: 910px;
 }
 
