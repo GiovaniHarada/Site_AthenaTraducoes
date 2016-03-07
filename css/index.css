@@ -38,7 +38,6 @@ a{
 #logo{
     height: 104px;
     left: 142px;
-    right: 962px;
     top: 5px;
     width: 296px;
 }
@@ -401,6 +400,144 @@ a{
     left: 408px;
 }
 
-btn_inicio:hover{
+.btnmenu:hover{
     color: #f9bf12;
 }
+
+#label_depoimento{
+    position: relative;
+    width: 643px;
+    height: 173px;
+    top: 267px;
+    left: 495px;    
+}
+
+#label_depoimento2{
+    position: relative;
+    width: 643px;
+    height: 173px;
+    top: 350px;
+    left: 265px;    
+}
+
+#btn_orcamento{
+    position: relative;
+    left: 250px;
+    top: -15px;    
+}
+
+#txt_depoimento{
+    position: relative;
+    top: 109px;
+    left: 309px;
+    color: #ffffff;
+    font: 700 40px Montserrat;
+    font-family: Montserrat, Verdana, sans-serif;
+}
+#txt_depoimento2{
+    position: relative;
+    top: 150px;
+    left: -200px;
+    color: #030202;
+    font: 400 20px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+}
+#txt_depoimento3{
+    position: relative;
+    color: #777777;
+    font: 400 22px / 28px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+    top: 10px;
+}
+
+#txt_depoimento4{
+    color: #f9c52b;
+    font: 400 18px / 36px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+#txt_parceiro1{
+    position: relative;
+    color: #ffffff;
+    font: 700 40px Montserrat;
+    top: 460px;
+    left: 281px;
+}
+
+#btn_parceiro{
+    position: relative;
+    left: -280px;
+    top: 550px;
+}
+
+#img_parceiro1{
+    position: relative;
+    top: 580px;
+    left: 180px;
+    
+}
+#img_parceiro2{
+    position: relative;
+    top: 580px;
+    left: 180px;
+    padding-left: 50px;
+}
+#img_parceiro3{
+    position: relative;
+    top: 620px;
+    left: 180px;
+    padding-left: 50px;
+}
+#img_parceiro4{
+    position: relative;
+    top: 600px;
+    left: 180px;
+    padding-left: 50px;
+}
+
+#txt_localizacao1{
+    position: relative;
+    color: #ececec;
+    font: 400 16px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+    left: 210px;
+    top: 850px;
+}
+#txt_localizacao2{
+    position: relative;
+    color: #ececec;
+    font: 400 16px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+    left: 175px;
+    top: 850px;
+}
+#txt_localizacao3{
+    position: relative;
+    color: #ececec;
+    font: 400 16px 'Myriad Pro';
+    font-family: 'Myriad Pro', Verdana, sans-serif;
+    left: 0px;
+    top: 925px;
+}
+
+#img_localizacao1{
+    position: relative;
+    left: 150px;
+    top: 900px;
+}
+
+#img_localizacao2{
+    position: relative;
+    left: 150px;
+    top: 870px;
+}
+
+#img_localizacao3{
+    position: relative;
+    left: -20px;
+    top: 930px;
+}
+
