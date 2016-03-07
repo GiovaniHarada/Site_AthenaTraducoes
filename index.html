@@ -136,7 +136,7 @@
                         <input type="number" name="dias" id="box_dias"><br>
                     </form>
                     
-                    <img src="images/botao_orcamento.png" id="btn_orcamento">
+                    <img src="images/botao_orcamento.png" id="btn_orcamento2">
                 </div>
             </div>
             <div id="depoimento">
@@ -174,6 +174,30 @@
                 <img src="images/icon_email.png" id="img_localizacao3">
                 <span id="txt_localizacao3">equipe@athenatraducoes.com.br</span>                
             </div>
+            <div id="midias">
+                <a href="https://www.facebook.com/Athenatraducao/"><img src="images/icon_fb.png" id="img_fb"></a>&nbsp&nbsp&nbsp
+                <a href="https://www.linkedin.com/company/athena-tradu%C3%A7%C3%B5es"><img src="images/icon_in.png" id="img_in"></a>
+            </div>
+            <div id="map">
+                
+            </div>
+            <script>
+                function initMap() {
+                  var myLatLng = {lat: -23.54391, lng: -46.64584};
+
+                  var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 17,
+                    center: myLatLng
+                  });
+
+                  var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: 'Estamos Aqui!'
+                  });
+                }
+            </script>
+                <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
         </div>    
     </body>
 </html>

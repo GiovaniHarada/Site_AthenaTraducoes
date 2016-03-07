@@ -79,7 +79,7 @@ a{
 }
 #btn_orcamento{
     position: relative;
-    left: 587px;
+    left: 600px;
     top: -65px;
     
 }
@@ -420,10 +420,10 @@ a{
     left: 265px;    
 }
 
-#btn_orcamento{
+#btn_orcamento2{
     position: relative;
-    left: 250px;
-    top: -15px;    
+    left: 280px;
+    top: -25px;
 }
 
 #txt_depoimento{
@@ -558,4 +558,16 @@ a{
     left: -10px;
     top: 910px;
 }
-
+#midias{
+    position: relative;
+    top: 965;
+    width: 120px;
+    margin: auto;
+}
+#map{
+    width: 586px;
+    height: 245px;
+    position: relative;
+    top: 580px;
+    left: 668px;
+}
