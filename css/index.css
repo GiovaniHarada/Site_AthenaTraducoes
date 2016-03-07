@@ -1,3 +1,8 @@
+html, body{
+    width:1400px;
+    margin: auto;
+    overflow-x: hidden;
+}
 .content{
     position: relative;
     width: 1400px;
@@ -75,7 +80,7 @@ a{
 #inicio_plus{
     position: relative;
     left: 458px;
-    top: -95;
+    top: -95px;
 }
 #btn_orcamento{
     position: relative;
@@ -220,6 +225,7 @@ a{
 #txt_idiomas{
     position: relative;
     color: #f9c52b;
+    width: 586px;
     font: 700 35px Montserrat;
     font-family: Montserrat, Verdana, sans-serif;
     left: 848px;
@@ -328,7 +334,8 @@ a{
     font: 700 35px / 36px Montserrat;
     font-family: Montserrat, Verdana, sans-serif;
     left: 449px;
-    top: -40
+    top: -40px;
+    width: 700px;
 }
 #txt_cafe2{
     position: relative;
@@ -336,11 +343,12 @@ a{
     font: 400 20px 'Myriad Pro';
     font-family: 'Myriad Pro', Verdana, sans-serif;
     left: 264px;
-    top: -70px;
+    width: 950px;
+    top: -20px;
 }
 #box_servico{
     position: relative;
-    left: 100
+    left: 100px;
 }
 #box_idioma{
     position: relative;
@@ -560,7 +568,7 @@ a{
 }
 #midias{
     position: relative;
-    top: 965;
+    top: 950px;
     width: 120px;
     margin: auto;
 }
