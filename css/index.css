@@ -1,7 +1,6 @@
 html, body{
     width:1400px;
     margin: auto;
-    overflow-x: hidden;
 }
 .content{
     position: relative;
@@ -348,11 +347,13 @@ a{
 }
 #box_servico{
     position: relative;
-    left: 100px;
+    left: 0px;
+    top: 10px;
 }
 #box_idioma{
     position: relative;
-    left: 120px;
+    top: -25px;
+    left: 500px;
 }
 #cafeFormBox{
     width: 720px;
@@ -361,43 +362,43 @@ a{
 }
 #box_numero{
     position: relative;
-    left: 70px;
+    left: 5 0px;
     top: 10px;
 }
 #txt_labelnumero{
     color: #ffffff;
     font: 700 14px OpenSans;
     position: relative;
-    left: 70px;
-    top: 10px;
+    left: 0px;
+    top: 0px;
 }
 #box_interprete{
     position: relative;
-    top: -27px;
-    left: 280px;
+    top: -75px;
+    left: 240px;
 }
 #txt_labelinterprete{
     position: relative;
-    top: -27px;
-    left: 280px;
+    top: -80px;
+    left: 240px;
     color: #ffffff;
     font: 700 14px OpenSans;
 }
 #box_dias{
     position: relative;
-    top: -64px;
+    top: -160px;
     left: 500px;
 }
 #txt_labeldias{
     color: #ffffff;
     font: 700 14px OpenSans;
     position: relative;
-    top: -64px;
+    top: -165px;
     left: 500px;
 }
 #txt_labelservico{
     position: relative;
-    left: 102px;
+    left: 0px;
     color: #ffffff;
     font: 700 14px OpenSans;
 }
@@ -405,7 +406,7 @@ a{
     color: #ffffff;
     font: 700 14px OpenSans;
     position: relative;
-    left: 408px;
+    left: 415px;
 }
 
 .btnmenu:hover{
@@ -431,12 +432,12 @@ a{
 #btn_orcamento2{
     position: relative;
     left: 280px;
-    top: -25px;
+    top: -140px;
 }
 
 #txt_depoimento{
     position: relative;
-    top: 109px;
+    top: -80px;
     left: 309px;
     color: #ffffff;
     font: 700 40px Montserrat;
@@ -444,7 +445,7 @@ a{
 }
 #txt_depoimento2{
     position: relative;
-    top: 150px;
+    top: -40px;
     left: -200px;
     color: #030202;
     font: 400 20px 'Myriad Pro';
@@ -455,7 +456,7 @@ a{
     color: #777777;
     font: 400 22px / 28px 'Myriad Pro';
     font-family: 'Myriad Pro', Verdana, sans-serif;
-    top: 30px;
+    top: -170px;
 }
 
 #txt_depoimento4{
@@ -464,7 +465,7 @@ a{
     font-family: 'Myriad Pro', Verdana, sans-serif;
     position: relative;
     left: 1px;
-    top: 40px;
+    top: -160px;
 }
 
 #txt_depoimento5{
@@ -472,7 +473,7 @@ a{
     color: #777777;
     font: 400 22px / 28px 'Myriad Pro';
     font-family: 'Myriad Pro', Verdana, sans-serif;
-    top: 50px;
+    top: -140px;
 }
 
 
@@ -482,44 +483,44 @@ a{
     font-family: 'Myriad Pro', Verdana, sans-serif;
     position: relative;
     left: 1px;
-    top: 90px;
+    top: -110px;
 }
 
 #txt_parceiro1{
     position: relative;
     color: #ffffff;
     font: 700 40px Montserrat;
-    top: 460px;
+    top: 270px;
     left: 281px;
 }
 
 #btn_parceiro{
     position: relative;
     left: -280px;
-    top: 550px;
+    top: 360px;
 }
 
 #img_parceiro1{
     position: relative;
-    top: 580px;
+    top: 400px;
     left: 180px;
     
 }
 #img_parceiro2{
     position: relative;
-    top: 580px;
+    top: 400px;
     left: 180px;
     padding-left: 50px;
 }
 #img_parceiro3{
     position: relative;
-    top: 620px;
+    top: 420px;
     left: 180px;
     padding-left: 50px;
 }
 #img_parceiro4{
     position: relative;
-    top: 600px;
+    top: 400px;
     left: 180px;
     padding-left: 50px;
 }
@@ -530,7 +531,7 @@ a{
     font: 400 16px 'Myriad Pro';
     font-family: 'Myriad Pro', Verdana, sans-serif;
     left: 210px;
-    top: 850px;
+    top: 600px;
 }
 #txt_localizacao2{
     position: relative;
@@ -538,7 +539,7 @@ a{
     font: 400 16px 'Myriad Pro';
     font-family: 'Myriad Pro', Verdana, sans-serif;
     left: 175px;
-    top: 850px;
+    top: 600px;
 }
 #txt_localizacao3{
     position: relative;
@@ -546,29 +547,29 @@ a{
     font: 400 16px 'Myriad Pro';
     font-family: 'Myriad Pro', Verdana, sans-serif;
     left: 10px;
-    top: 905px;
+    top: 645px;
 }
 
 #img_localizacao1{
     position: relative;
     left: 150px;
-    top: 900px;
+    top: 650px;
 }
 
 #img_localizacao2{
     position: relative;
     left: 150px;
-    top: 870px;
+    top: 610px;
 }
 
 #img_localizacao3{
     position: relative;
     left: -10px;
-    top: 910px;
+    top: 650px;
 }
 #midias{
     position: relative;
-    top: 950px;
+    top: 780px;
     width: 120px;
     margin: auto;
 }
@@ -576,7 +577,7 @@ a{
     width: 586px;
     height: 245px;
     position: relative;
-    top: 580px;
+    top: 380px;
     left: 668px;
 }
 
@@ -595,4 +596,209 @@ a{
 .efeito-grow:focus,
 .efeito-grow:active {
     transform: scale(1.1);
+}
+.form-control {
+  display: block;  
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  background-color: #eee;
+  opacity: 1;
+}
+.form-control[disabled],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+}
+textarea.form-control {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: none;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="date"].form-control,
+  input[type="time"].form-control,
+  input[type="datetime-local"].form-control,
+  input[type="month"].form-control {
+    line-height: 34px;
+  }
+  input[type="date"].input-sm,
+  input[type="time"].input-sm,
+  input[type="datetime-local"].input-sm,
+  input[type="month"].input-sm,
+  .input-group-sm input[type="date"],
+  .input-group-sm input[type="time"],
+  .input-group-sm input[type="datetime-local"],
+  .input-group-sm input[type="month"] {
+    line-height: 30px;
+  }
+  input[type="date"].input-lg,
+  input[type="time"].input-lg,
+  input[type="datetime-local"].input-lg,
+  input[type="month"].input-lg,
+  .input-group-lg input[type="date"],
+  .input-group-lg input[type="time"],
+  .input-group-lg input[type="datetime-local"],
+  .input-group-lg input[type="month"] {
+    line-height: 46px;
+  }
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.radio,
+.checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.radio label,
+.checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-top: 4px \9;
+  margin-left: -20px;
+}
+.radio + .radio,
+.checkbox + .checkbox {
+  margin-top: -5px;
+}
+.radio-inline,
+.checkbox-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.radio-inline + .radio-inline,
+.checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+input[type="radio"][disabled],
+input[type="checkbox"][disabled],
+input[type="radio"].disabled,
+input[type="checkbox"].disabled,
+fieldset[disabled] input[type="radio"],
+fieldset[disabled] input[type="checkbox"] {
+  cursor: not-allowed;
+}
+.radio-inline.disabled,
+.checkbox-inline.disabled,
+fieldset[disabled] .radio-inline,
+fieldset[disabled] .checkbox-inline {
+  cursor: not-allowed;
+}
+.radio.disabled label,
+.checkbox.disabled label,
+fieldset[disabled] .radio label,
+fieldset[disabled] .checkbox label {
+  cursor: not-allowed;
+}
+.form-control-static {
+  min-height: 34px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+}
+.form-control-static.input-lg,
+.form-control-static.input-sm {
+  padding-right: 0;
+  padding-left: 0;
+}
+.input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;  
+  margin-bottom: 0;
+}
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+select.input-group-lg > .form-control,
+select.input-group-lg > .input-group-addon,
+select.input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  line-height: 46px;
+}
+textarea.input-group-lg > .form-control,
+textarea.input-group-lg > .input-group-addon,
+textarea.input-group-lg > .input-group-btn > .btn,
+select[multiple].input-group-lg > .form-control,
+select[multiple].input-group-lg > .input-group-addon,
+select[multiple].input-group-lg > .input-group-btn > .btn {
+  height: auto;
+}
+.input-group-sm > .form-control,
+.input-group-sm > .input-group-addon,
+.input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+select.input-group-sm > .form-control,
+select.input-group-sm > .input-group-addon,
+select.input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  line-height: 30px;
+}
+textarea.input-group-sm > .form-control,
+textarea.input-group-sm > .input-group-addon,
+textarea.input-group-sm > .input-group-btn > .btn,
+select[multiple].input-group-sm > .form-control,
+select[multiple].input-group-sm > .input-group-addon,
+select[multiple].input-group-sm > .input-group-btn > .btn {
+  height: auto;
 }
