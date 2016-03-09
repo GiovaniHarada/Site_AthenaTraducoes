@@ -11,7 +11,7 @@ body{
     color: #f9bf12;
 }
 #linkbar{
-    color: #000000;
+    color: #000;
     font: 400 14px / 41px;
     font-family: "Verdana";
     position: absolute;
@@ -22,7 +22,7 @@ body{
 #linkbar a{
     animation: none;
     text-decoration: none;
-    color: #000000;
+    color: #000;
 }
 #logo{
     height: 104px;
