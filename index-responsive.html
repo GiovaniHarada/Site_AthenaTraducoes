@@ -7,8 +7,10 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Athena Traduções</title>
     <!-- Bootstrap and CSS Files-->
+	<link rel="stylesheet" href="css/cards.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">	
-    <link href="css/style.css" rel="stylesheet">	
+    <link href="css/style.css" rel="stylesheet">
+	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,17 +21,28 @@
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	<div class="container">
-		<div class="Header">
-			<a href="index.html"><img src="images/logo.png" id="logo" draggable="false"></a>
-			<div id="linkbar">
-				<a href="#inicio" id="btn_inicio" class="btnmenu">INÍCIO</a>
-				<a href="#servicos" id="btn_servicos" class="btnmenu">SERVIÇOS</a>
-				<a href="#sobre" id="btn_sobre" class="btnmenu">SOBRE</a>                    
-				<a href="#orcamento" id="btn_orcamentos" class="btnmenu">ORÇAMENTOS</a>
-				<a href="#contato" id="btn_contato" class="btnmenu">CONTATO</a>
+	<nav class="fh5co-nav-style-1" role="navigation" data-offcanvass-position="fh5co-offcanvass-left">
+		<div class="container">
+			<div class="col-lg-3 col-md-1 col-sm-6 col-xs-15 fh5co-logo">
+				<a href="#" class="js-fh5co-mobile-toggle fh5co-nav-toggle"><i></i></a>
+				<a href="index-responsive.html"><img src="images/logo.png"draggable="false"></a>
 			</div>
-		</div>    
+			<div class="col-lg-9 col-md-5 col-sm-5 text-center fh5co-link-wrap">
+				<ul data-offcanvass="yes">
+					<br><br><br>
+					<li><a href="#">INÍCIO</a></li>
+					<li><a href="#">SERVIÇOS</a></li>
+					<li><a href="#">SOBRE</a></li>
+					<li><a href="#">ORÇAMENTO</a></li>
+					<li><a href="#">CONTATO</a></li>
+				</ul>
+			</div> 
+		</div>
+	</nav>
+	
+	
+	<div class="container">
+  
 	</div>
     <script src="js/bootstrap.min.js"></script>
 </body>
