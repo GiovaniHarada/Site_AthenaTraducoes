@@ -1,0 +1,30 @@
+html, body{
+    width:1400px;
+    margin: auto;
+
+}
+.Header{
+    background-color: #fdfafa;
+    height: 115px;
+    width: 1400px;
+}
+
+.btnmenu:hover{
+    color: #f9bf12;
+}
+
+#linkbar{
+    color: #000000;
+    font: 400 14px / 41px;
+    font-family: "Verdana";
+    position: absolute;
+    left: 50%;
+    top: 52px;
+    word-spacing: 30px;
+}
+#linkbar a{
+    animation: none;
+    text-decoration: none;
+    color: #000000;
+}
+	
