@@ -1,0 +1,53 @@
+body {
+    background-color: aliceblue;
+     margin: 0; 
+    padding: 0;
+}
+.Wcontent{
+    width: auto;
+    height: 4960px;
+}
+.content{
+    width: 100%;
+}
+#topMenu{
+    height: 115px;
+}
+#logo{
+    margin-left: 8%;
+    height: 100%
+}
+#header{
+    /*
+    height: 545px;
+    background: url(/images/bg_header.png) no-repeat;
+    background-size: 100% 545px;
+    */
+}
+#bg_header{
+    position: absolute;
+    width: 100%;
+}
+.txt_header1{
+    position: absolute;
+    margin-top: 5%;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    font: 700 60px / 65px Montserrat;
+    font-family: Montserrat, Verdana, sans-serif;
+}
+#img_plus{
+    position: absolute;
+}
+#txt_header2{
+    position: absolute;
+    margin-top: 5%;
+    color: #ffffff;
+    font: 700 60px / 65px Montserrat;
+    font-family: Montserrat, Verdana, sans-serif;
+}
+#idiomas{
+    text-align:center;
+    margin-top: 20%;
+}
